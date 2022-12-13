@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen"/> 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <title>Bootstrap Bio</title>
+</head>
+<body>   
+   
+    <div class="container"> 
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>          
+        </ul>
+      </div>
+    </div>
+  </nav> 
+  <!-- top -->
+  <section class="bg-dark text-light p-5 text-center">
+    <div class="container">
+      <div class="d-sm-flex align-items-center justify-content-between">
+        <div>
+          <h2>work life balance</h2>
+          <p class="lead">The best life is enjoyed <br>through balance.</p>          
+        </div>
+        <img src="img/meboat.jpg" alt=""><!--I need better pictures-->
+      </div>      
+    </div>
+  </section>
+
+  <section class="p-5">
+    <div class="container">
+      <div class="row text-center g-4">
+        <div class="col-md">
+          <div class="card bg-dark text-light">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-laptop"></i>
+              </div>
+              <h3 class="card-title mb-3">remote</h3>
+              <p class="card-text">
+                Working and learning remotely
+                with the top messaging services <br>has become 2nd nature
+              </p>
+              <a href="contact.html" class="btn btn-primary">Click here</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card bg-secondary text-light">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-person-square"></i>
+              </div>
+              <h3 class="card-title mb-3">hybrid</h3>
+              <p class="card-text">
+                Balancing remote and in-office hours<br>
+                that benefit the goal of company<br>
+                and support the development of employee
+              </p>
+              <a href="contact.html" class="btn btn-dark">click here</a> <!--call to action-->
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card bg-dark text-light">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-people"></i>
+              </div>
+              <h3 class="card-title mb-3">office</h3>
+              <p class="card-text">
+                Most people spend as much time<br>
+                with co-workers as they do with family<br>
+                Many lifelong friendships are made
+              </p>
+              <a href="contact.html" class="btn btn-primary">click here</a> <!--call to action-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="questions" class="p-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Q & A</h2><!--thought it might be more interactive-->
+      <div class="accordion accordion-flush" id="questions">
+        <!--added code from bootstrap and customized it -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#question-one">
+              Can you help me find a job?
+            </button>
+          </h2>
+          <div
+            id="question-one"
+            class="accordion-collapse collapse"
+            data-bs-parent="#questions">
+          
+            <div class="accordion-body">
+              Results-oriented, student (former publishing) executive with demonstrated record of accomplishment in streamlining operations, increasing profits and maximizing market penetration. Decisive leader promoting operational improvements, market expansion and positive corporate culture as keys to success. Strategic problem-solver bringing 10+ years of experience.
+            </div>
+          </div>
+        </div>
+        <!-- Item 2 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#question-two">
+            
+              What do I bring to the table?
+            </button>
+          </h2>
+          <div
+            id="question-two"
+            class="accordion-collapse collapse"
+            data-bs-parent="#questions">
+            Results-oriented, Computer Information Science student. Former publishing executive with demonstrated record of accomplishment in streamlining operations, increasing profits and maximizing market penetration. Decisive leader promoting operational improvements, market expansion and positive corporate culture as keys to success. Strategic problem-solver bringing 10+ years of experience.
+            <div class="accordion-body">
+              
+            </div>
+          </div>
+        </div>
+        <!-- Item 3 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#question-three">
+            
+              Will people vouch for you?
+            </button>
+          </h2>
+          <div
+            id="question-three"
+            class="accordion-collapse collapse"
+            data-bs-parent="#questions">
+          
+            <div class="accordion-body">
+            Held secret, NATO secret security clearance.
+            Upheld code of conduct and maintained professionalism in stressful situations.
+            </div>
+          </div>
+        </div>
+        <!-- Item 4 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#question-four">
+            
+              Let's talk some more.
+            </button>
+          </h2>
+          <div
+            id="question-four"
+            class="accordion-collapse collapse"
+            data-bs-parent="#questions">
+          
+            <div class="accordion-body">
+              <h3>Contact me by email or cell by clicking below:</h3>
+            <a href="mailto:jasontrish2001@yahoo.com">jasontrish2001@yahoo.com</a><br> 
+            <a href="tel:417-350-3964">(417) 350-3964</a>
+              
+            </div>
+          </div>
+        </div>
+       
+       </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="instructors" class="p-5 bg-primary">
+    <div class="container">
+      <h2 class="text-center text-white">Some of my I.T. educators</h2>
+      <p class="lead text-center text-white mb-5">
+        
+      </p>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <img
+                src="https://engineering.missouri.edu/wp-content/uploads/2021/11/Portrait_MusserDale_150x206.jpg"
+                class="rounded-circle mb-3"/>
+                
+              
+              <h3 class="card-title mb-3">Prof. Dale<br>Musser</h3>
+              <p class="card-text">
+                Dale Musser is an associate teaching professor in the IT Program at the University of Missouri. Musser was previously a faculty member in Network Learning Systems in the School of Information Science & Learning Technologies at the University of Missouri and a manager of entertainment and educational software development at IBM in Atlanta. His research and development work has been supported by grants from the National Science Foundation and the Department of Education. He was a co-founder of MU’s Center for Technology Innovations in Education.
+              </p>              
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <img
+                src="https://media.licdn.com/dms/image/C5103AQGu5o0Bvd6rng/profile-displayphoto-shrink_800_800/0/1516270089561?e=1676505600&v=beta&t=aHCWCnyAUFDlkojlI1sghimY5RQjbsEk9TIYKEaf30A"
+                class="rounded-circle mb-3"
+                alt=""/>
+              
+              <h3 class="card-title mb-3">Prof. Anthony<br>Maughan</h3>
+              <p class="card-text">
+                I've been working with networking and computer technologies for 20+ years. I have focused on Customer Service and Business driven technology and implementations. I love matching technology with business needs and "just making it work". Can we build it? Yes we can!!<br>
+                Specialties: Systems Integration, Technical Troubleshooting, Infrastructure Design
+              </p>              
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <img
+                src="https://academics.otc.edu/media/uploads/sites/40/2015/02/Tiffany-Ford-OTC-WEB.jpg"
+                class="rounded-circle mb-lg-4"
+                alt=""
+              />
+              <h3 class="card-title mb-3">Dr. Tiffany Ford<br>C.I.S.<br>Dept. Chair</h3> 
+              Ed.D., M.S. Lindenwood University<br>B.S. Missouri State University<br>A.A.S. Ozarks Technical Community College 
+              <p class="card-text">                
+              </p>              
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <img
+                src="https://engineering.missouri.edu/wp-content/uploads/2021/11/Portrait_CulmerKristofferson_150x206.jpg"
+                class="rounded-circle mb-3"
+                alt=""/>
+              
+              <h3 class="card-title mb-3">Prof. Kristofferson Culmer</h3>
+              <p class="card-text">
+                Kristofferson Culmer is an assistant professor of professional practice for the IT Program and director of the Autonomous Systems Lab. Culmer teaches courses in software engineering such as programming languages and paradigms, database management systems and software engineering, and machine learning & data analytics. He also assists teaching IT 1040 (Problem Solving and Programming).
+              </p>            
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="p-5 bg-dark text-white text-center position-relative">
+    <div class="container">
+      <p class="lead">Copyright &copy;</p>      
+    </div>
+  </footer>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script> 
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" type="text/javascript" charset="utf-8" media="screen"></script> 
+ 
+  </body>
+</html>
